@@ -1,0 +1,65 @@
+body {
+font-family: Arial, sans-serif;
+background: white;
+padding: 40px;
+}
+
+.app {
+background: white;
+padding: 20px;
+border-radius: 16px;
+margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+  margin-bottom: 60px;
+}
+
+.campos {
+  display: flex;
+  gap: 10px;
+}
+
+input, select {
+padding: 10px;
+border-radius: 8px;
+border: 1px solid #ccc;
+flex: 1;
+}
+
+button {
+  align-self: center;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  background: gray;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.5;
+transform: scale(1.1);
+}
+
+.tareas {
+display: flex;
+gap: 15px;
+flex-wrap: wrap;
+}
+
+.tarea {
+padding: 30px 30px;   
+  border-radius: 30px;
+  font-size: 20px;      
+  min-width: 100px;   
+  text-align: center;
+  cursor: pointer;
+}
+
+.pendiente { background: #bde3ef; }
+.proceso { background: #fffac8; }
+.finalizado { background: #9df09d; }
